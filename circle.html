@@ -13,6 +13,9 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <!-- Animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -41,13 +44,14 @@
             </div>
         </nav>
         <!-- Page Header-->
+
         <header class="masthead" style="background-image: url('assets/img/circles.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
+                    <div class="col-md-8 col-lg-10 col-xl-12">
                         <div class="post-heading">
-                            <h1>Circles: Vertex at The Origin (0,0)</h1>
-                            <h2 class="subheading">Graph and Properties of Circle at Center (0,0)</h2>
+                            <h1 class="animate__animated animate__fadeIn animate__delay-0.5s">Circles: Vertex at The Origin (0,0)</h1>
+                            <h2 class="subheading animate__animated animate__fadeIn animate__delay-0.5s">Graph and Properties of Circle at Center (0,0)</h2>
                         </div>
                     </div>
                 </div>
@@ -58,7 +62,7 @@
         <article class="mb-4 ">
             <div class="container">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-8 col-lg-8 col-xl-12">
+                    <div class="col-md-10 col-lg-8 col-xl-12">
                             <div class="row">
                                 <!-- Side Nav Bar -->
                                 <div class="col-xl-2 bg-light mb-5" id="sticky-sidebar">
@@ -75,7 +79,7 @@
                                     </div>
                                 </div>
                             <!-- Main Area -->
-                                <div class="col px-4 "data-bs-spy="scroll"
+                                <div class="col px-4"data-bs-spy="scroll"
                                 data-bs-target="#sticky-sidebar" id="main">
                                     
                                     <!-- Definition -->
@@ -83,10 +87,12 @@
                                     <br>
                                     <h3 id="definition">Definition of a Circle</h3>
                                         <p>A circle is a locus of points whose distances are equidistant <span class="fw-bold fst-italic">r</span> from a fixed point <span class="fw-bold fst-italic">(h,k)</span>. The distance <span class="fw-bold fst-italic">r</span> is the radius, and the fixed point <span class="fw-bold fst-italic">(h,k)</span> is the center. The diameter of the circle as <span class="fw-bold fst-italic">d</span> is twice the radius. </p>
-                                        <br>
-                                        <div class="row-6 text-center overflow-auto">
-                                            <div class="embed-responsive embed-responsive-16by9">
-                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/lnZMi2jlihk?si=Xks23bQA2zJjluGO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                
+                                    <h4>Video Lesson</h4>
+                                    <br>
+                                        <div class="row-6 text-center overflow-auto ">
+                                            <div class="embed-responsive embed-responsive-4by3 ">
+                                                <iframe class="border border-3 border-dark rounded" width="850" height="480" src="https://www.youtube.com/embed/lnZMi2jlihk?si=Xks23bQA2zJjluGO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                             </div>
                                         </div>
                                         
@@ -119,14 +125,16 @@
                                             </div>
                                             <div class="col-12 col-xl-6 col-xs-6 col-sm-12 col-md-12 justify-content-center">
                                                 <img src="assets/img/circle1.png" alt="Graph of a circle at (h,k) with point (x,y)" class="img-responsive img-thumbnail">
+                                                <blockquote class="blockquote text-center mt-2">Figure 1.1 | All figures taken from Desmos</blockquote>
+
                                             </div>
                                         </div>
                                         <br>
                                         <br>
                                         <div class="row-6 text-center overflow-auto">
                                            
-                                            <div class="embed-responsive embed-responsive-16by9">
-                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/dxs5U7B0uuc?si=5GKIVvUc1GVxavZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                            <div class="embed-responsive embed-responsive-4by3">
+                                                <iframe class="border border-3 border-dark rounded" width="850" height="480" src="https://www.youtube.com/embed/dxs5U7B0uuc?si=5GKIVvUc1GVxavZr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                             </div>
                                         </div>
                                     <br>
@@ -135,19 +143,21 @@
                                     <!-- Graphing -->
                                     <h3 id="graphing">Graphing Circles at (0,0)</h3>
                                     <br>
-                                    
+                                    <h4>Video Lessons</h4>
+                                    <br>
                                     <div class="row-4 text-center overflow-auto">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/JuHAxrG_VX0?si=GM-VU8Ycv6JjtTqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <div class="embed-responsive embed-responsive-4by3">
+                                            <iframe class="border border-3 border-dark rounded" width="850" height="480" src="https://www.youtube.com/embed/JuHAxrG_VX0?si=GM-VU8Ycv6JjtTqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                         </div>
                                     </div>
                                     <br>
                                     <div class="row-6 text-center overflow-auto">
-                                        <div class="embed-responsive embed-responsive-16by9">
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8FvHa0BThvc?si=wlbr_EeEWvxVKEtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                        <div class="embed-responsive embed-responsive-4by3">
+                                            <iframe class="border border-3 border-dark rounded" width="850" height="480" src="https://www.youtube.com/embed/8FvHa0BThvc?si=wlbr_EeEWvxVKEtk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                                         </div>
                                     </div>
-
+                                    <br>
+                                    <h4>Examples</h4>
 
                                     <p>1. Graph the circle whose equation is \((x)^2+(y)^2=25\)</p>
                                     <p class="fw-bold fst-italic text-danger">Solution</p>
@@ -162,6 +172,8 @@
                                             </div>
                                             <div class="col-12 col-xl-6 col-xs-6 col-sm-12 col-md-12 justify-content-center">
                                                 <img src="assets/img/example-graph-1.png" alt="Graph of a circle with center (0,0) and a radius of 5" class="img-responsive img-thumbnail">
+                                                <blockquote class="blockquote text-center mt-2">Figure 2.1</blockquote>
+
                                             </div>
                                         </div>
                                    
@@ -178,6 +190,7 @@
                                                 </div>
                                                 <div class="col-12 col-xl-6 col-xs-6 col-sm-12 col-md-12 justify-content-center">
                                                     <img src="assets/img/example-graph-2.png" alt="Graph of a circle with center (0,0) and a radius of 9" class="img-responsive img-thumbnail">
+                                                    <blockquote class="blockquote text-center mt-2">Figure 2.2</blockquote>
                                                 </div>
                                             </div>
                                     <br>
@@ -202,6 +215,7 @@
                                                 </div>
                                                 <div class="col-12 col-xl-6 col-xs-6 col-sm-12 col-md-12 my-auto d-block">
                                                     <img src="assets/img/example-graph-3.png" alt="Graph of a circle with center (0,0) and a radius of 4" class="img-responsive img-thumbnail">
+                                                    <blockquote class="blockquote text-center mt-2">Figure 2.3</blockquote>
                                                 </div>
                                             </div>        
                                     <br>    
@@ -241,8 +255,12 @@
                                                         <p>\[\bf \color{green} {(x)^2+(y)^2=25}\]</p>
                                                 </div>
                                                 <div class="col-12 col-xl-6 col-xs-6 col-sm-12 col-md-12">
-                                                    <img src="assets/img/challenge-graph-1.png" alt="2 lines intersecting at point (3,-7)" class="img-responsive img-thumbnail my-4">
-                                                    <img src="assets/img/challenge-graph-2.png" alt="Graph of a circle with center (0,0) and a radius of 5" class="img-responsive img-thumbnail my-5">
+                                                    <img src="assets/img/challenge-graph-1.png" alt="2 lines intersecting at point (3,-7)" class="img-responsive img-thumbnail mb-4">
+                                                    <blockquote class="blockquote text-center">Figure 3.1.1</blockquote>
+
+                                                    <img src="assets/img/challenge-graph-2.png" alt="Graph of a circle with center (0,0) and a radius of 5" class="img-responsive img-thumbnail mt-5">
+                                                    <blockquote class="blockquote text-center mt-3">Figure 3.1.2</blockquote>
+
                                                 </div>
                                             </div>
                                     <br>
@@ -275,6 +293,8 @@
                                                 </div>
                                                 <div class="row-4 text-center">
                                                     <img src="assets/img/challenge2-graph-1.png" alt="Graph of the 2 vertices of the right side of the inscribed square and their midpoint" class="img-responsive img-thumbnail">
+                                                    <blockquote class="blockquote text-center mt-3">Figure 3.2.1</blockquote>
+
                                                 </div>
                                             </div>
                                             <p>Subtract the x-coordinates of the two vertices to \(5\sqrt{2}\) to get the vertices of the left side of the inscribed square.</p>
@@ -286,7 +306,10 @@
                                                 <p class="col text-center">\(V_{3}\) \((\frac{20-5\sqrt{2}}{2},\frac{10+5\sqrt{2}}{2})\) , \(V_{4}\) \((\frac{20-5\sqrt{2}}{2},\frac{10-5\sqrt{2}}{2})\)</p>
                                                
                                             </div>
-                                            <div class="row-4 text-center"><img src="assets/img/challenge2-graph-2.png" alt="Graph of the full inscribed square with midpoints" class="img-responsive img-thumbnail"></div>
+                                            <div class="row-4 text-center">
+                                                <img src="assets/img/challenge2-graph-2.png" alt="Graph of the full inscribed square with midpoints" class="img-responsive img-thumbnail">
+                                                <blockquote class="blockquote text-center mt-3">Figure 3.2.2</blockquote>
+                                            </div>
 
                                             <p>To get the center of the circle, substract the half of the length of the sides which is \(\frac{5\sqrt{2}}{2}\) to the x-coordinate of the midpoint of the right side of the square.</p>
                                                 <p class="text-center">\(C\) \((\frac{20+5\sqrt{2}}{2}-\frac{5\sqrt{2}}{2},5)\)</p>
@@ -295,7 +318,11 @@
                                                 <p>\[(x_{2}-x_{1})^2+(y_{2}-y_{1})^2=d^2\]</p>
                                                 <p class="overflow-auto">\[\small (\frac{20+5\sqrt{2}}{2}-\frac{20-5\sqrt{2}}{2})^2+(5+\frac{10+5\sqrt{2}}{2})^2=r^2\]</p>
                                                 <p>\[r=5\]</p>
-                                            <div class="row-4 text-center"><img src="assets/img/challenge2-graph-3.png" alt="Graph of the circle with the inscribed square" class="img-responsive img-thumbnail"></div>
+                                            <div class="row-4 text-center">
+                                                <img src="assets/img/challenge2-graph-3.png" alt="Graph of the circle with the inscribed square" class="img-responsive img-thumbnail">
+                                                <blockquote class="blockquote text-center mt-3">Figure 3.2.3</blockquote>
+
+                                            </div>
                                             <p>Knowing that the point of tangency is at any point of the circle at (0,0), and it is at the left side of the cartesian plane, we need to extend the midpoint’s line towards left understood \(y=5\)</p>
                                             <p>The point where the line y = 5 touches the y-axis is the same point of tangency given if center is at (0,0) Distance of the point of tangency to the circle at (0,0) is the radius of the circle, and can be solved through the distance formula.</p>
                                                 <p>\[(x_{2}-x_{1})^2+(y_{2}-y_{1})^2=r^2\]</p>
@@ -314,14 +341,12 @@
 
                                                 <blockquote class="blockquote text-center text-danger fs-6">(Final Answer)</blockquote>
 
-                                            <div class="row-4 text-center"><img src="assets/img/challenge2-graph-4.png" alt="Graph of the final circle with center at (0,0)" class="img-responsive img-thumbnail"></div>
-                                                  
+                                            <div class="row-4 text-center">
+                                                <img src="assets/img/challenge2-graph-4.png" alt="Graph of the final circle with center at (0,0)" class="img-responsive img-thumbnail">
+                                                <blockquote class="blockquote text-center mt-3">Figure 3.2.4</blockquote>
+                                            </div>
                                 </div>
                             </div>
-
-
-
-                     
                     </div>
                     </div>
                 </div>
